@@ -1,0 +1,2 @@
+model_checkpoint_path: "e4"
+all_model_checkpoint_paths: "e4"
