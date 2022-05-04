@@ -1,12 +1,12 @@
 nohup: ignoring input
-2022-04-30 23:43:16.794236: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-30 23:43:16.943756: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
-2022-04-30 23:43:16.944786: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 0 with properties: 
+2022-05-03 21:36:56.657112: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-05-03 21:36:56.806184: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2022-05-03 21:36:56.807204: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 0 with properties: 
 name: Quadro RTX 6000 major: 7 minor: 5 memoryClockRate(GHz): 1.77
 pciBusID: 0000:21:00.0
 totalMemory: 23.65GiB freeMemory: 23.49GiB
-2022-04-30 23:43:16.944798: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1435] Adding visible gpu devices: 0
-2022-04-30 23:43:17.088001: I tensorflow/core/common_runtime/gpu/gpu_device.cc:923] Device interconnect StreamExecutor with strength 1 edge matrix:
-2022-04-30 23:43:17.088045: I tensorflow/core/common_runtime/gpu/gpu_device.cc:929]      0 
-2022-04-30 23:43:17.088050: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 0:   N 
-2022-04-30 23:43:17.088143: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5328 MB memory) -> physical GPU (device: 0, name: Quadro RTX 6000, pci bus id: 0000:21:00.0, compute capability: 7.5)
+2022-05-03 21:36:56.807216: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1435] Adding visible gpu devices: 0
+2022-05-03 21:36:56.953646: I tensorflow/core/common_runtime/gpu/gpu_device.cc:923] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-03 21:36:56.953692: I tensorflow/core/common_runtime/gpu/gpu_device.cc:929]      0 
+2022-05-03 21:36:56.953697: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 0:   N 
+2022-05-03 21:36:56.953786: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5328 MB memory) -> physical GPU (device: 0, name: Quadro RTX 6000, pci bus id: 0000:21:00.0, compute capability: 7.5)
