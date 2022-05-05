@@ -1,11 +1,11 @@
 nohup: ignoring input
-2022-05-03 23:02:29.503693: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-05-03 23:02:29.782686: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 0 with properties: 
+2022-05-04 17:46:45.277431: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-05-04 17:46:45.540679: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 0 with properties: 
 name: Quadro RTX 6000 major: 7 minor: 5 memoryClockRate(GHz): 1.77
 pciBusID: 0000:01:00.0
 totalMemory: 23.65GiB freeMemory: 23.47GiB
-2022-05-03 23:02:29.782722: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1435] Adding visible gpu devices: 0
-2022-05-03 23:02:29.930277: I tensorflow/core/common_runtime/gpu/gpu_device.cc:923] Device interconnect StreamExecutor with strength 1 edge matrix:
-2022-05-03 23:02:29.930322: I tensorflow/core/common_runtime/gpu/gpu_device.cc:929]      0 
-2022-05-03 23:02:29.930327: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 0:   N 
-2022-05-03 23:02:29.930412: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5327 MB memory) -> physical GPU (device: 0, name: Quadro RTX 6000, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2022-05-04 17:46:45.540714: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1435] Adding visible gpu devices: 0
+2022-05-04 17:46:45.681421: I tensorflow/core/common_runtime/gpu/gpu_device.cc:923] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-04 17:46:45.681469: I tensorflow/core/common_runtime/gpu/gpu_device.cc:929]      0 
+2022-05-04 17:46:45.681473: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 0:   N 
+2022-05-04 17:46:45.681566: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5327 MB memory) -> physical GPU (device: 0, name: Quadro RTX 6000, pci bus id: 0000:01:00.0, compute capability: 7.5)
